@@ -15,4 +15,9 @@ int main() {
     cout << convert << " / " << base << " -> " << convert%base << endl;
     convert = convert/base;
   }
+  
+  cout << endl;
+  for(int i = converted.size()-1; i >= 0; i --)
+    cout << converted[i];
+  
 }
